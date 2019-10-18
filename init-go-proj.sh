@@ -112,7 +112,7 @@ $projname: main.go
 clean:
 	rm -rf $projname
 
-install: fortune2
+install: $projname
 	mkdir -p \$(SHAREDIR)
 	cp $projname \$(BINDIR)
 

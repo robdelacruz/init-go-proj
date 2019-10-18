@@ -7,7 +7,7 @@ License:
   MIT
 
 Manual:
-  init_go_proj.sh PROJECT_NAME
+  init-go-proj.sh PROJECT_NAME
 
   PROJECT_NAME : Name of project directory to be created
 
@@ -24,5 +24,5 @@ Manual:
 
 Contact:
   Twitter: @robdelacruz 
-  Source: http://github.com/robdelacruz/init_go_proj
+  Source: http://github.com/robdelacruz/init-go-proj
 

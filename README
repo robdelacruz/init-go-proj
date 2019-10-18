@@ -1,4 +1,4 @@
-init_go_proj - Set up initial files for new Go project
+init-go-proj - Set up initial files for new Go project
 
 Dependencies:
 - Unix shell

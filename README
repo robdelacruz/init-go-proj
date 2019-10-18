@@ -1,31 +1,28 @@
-init_go_proj - (summary description here)
-
-Includes:
-- (output files here)
-
-Use for:
-- (functionality here)
+init_go_proj - Set up initial files for new Go project
 
 Dependencies:
-- (dependencies here)
+- Unix shell
 
 License:
   MIT
 
 Manual:
+  init_go_proj.sh PROJECT_NAME
 
-Build and Install
------------------
-  $ make
-  $ sudo make install
+  PROJECT_NAME : Name of project directory to be created
 
-  To uninstall:
-  $ sudo make uninstall
+  This will create a new project directory with the following
+  supporting files:
+    - README
+    - LICENSE
+    - Makefile
+    - .gitignore
 
-(manual here)
+  Example:
+    init_go_proj.sh web_curator
 
 
 Contact:
-  (contact info here)
-  Source: (link to source code - github, etc.)
+  Twitter: @robdelacruz 
+  Source: http://github.com/robdelacruz/init_go_proj
 

@@ -1,24 +1,27 @@
-## About _
+init-go-proj - Set up initial files for new Go project
 
-_ is a [description] 
+Dependencies:
+- Unix shell
 
-- feature a
-- feature b
-- feature c
-- MIT License
+License:
+  MIT
 
-## Build and Install
+Manual:
+  init-go-proj.sh PROJECT_NAME
 
-    $ make dep
-    $ make
+  PROJECT_NAME : Name of project directory to be created
 
-    Run '_' to _.
+  This will create a new project directory with the following
+  supporting files:
+    - README
+    - LICENSE
+    - Makefile
+    - .gitignore
 
-## Screenshots
+  Example:
+    init_go_proj.sh web_curator
 
-![screen 1](screenshots/_.png)
 
-## Contact
-    Twitter: @robdelacruz
-    Source: http://github.com/robdelacruz/groupnotes
-
+Contact:
+  Twitter: @robdelacruz 
+  Source: http://github.com/robdelacruz/init-go-proj
